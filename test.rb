@@ -49,7 +49,6 @@ class Test
 	def string
 		uri = URI.parse(val)
 		return uri.host if uri.is_a?(URI::HTTPS)
-
 		val
 	end
 end
